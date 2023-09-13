@@ -9,8 +9,8 @@ function App() {
       <Routes>
       <Route path="*" element={<HomePage />} />
       {/* <Route path="signup" element={<RegistrationForm />} /> */}
-      <Route path='/registrationform' element={<RegistrationForm></RegistrationForm>}/> 
-      <Route exact path="/loginform" element={<LoginForm />} />
+      <Route path='/signup' element={<RegistrationForm></RegistrationForm>}/> 
+      <Route exact path="/login" element={<LoginForm />} />
       <Route path='/aboutus' element={<Aboutus/>}></Route>
         </Routes>
       </Router>
